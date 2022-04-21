@@ -26,5 +26,7 @@ int main() {
     // output
     // 202 ms	6.2 MB
     printf("%d - %d\n", data[0], data[1]);
+
+    free(data);
     return 0;
 }
